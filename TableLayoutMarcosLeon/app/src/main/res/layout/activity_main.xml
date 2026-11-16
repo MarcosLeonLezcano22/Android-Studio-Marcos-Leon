@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F4F6FB"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#1F4E9C"
+        android:padding="16dp"
+        android:text="Tres en Raya"
+        android:textColor="#FFFFFF"
+        android:textSize="22sp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:padding="8dp"
+        android:weightSum="100">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="35"
+            android:background="#FFFFFF"
+            android:orientation="vertical"
+            android:padding="8dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:padding="8dp"
+                android:text="PUNTUACIÓN"
+                android:textColor="#1F4E9C"
+                android:textStyle="bold" />
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#E6ECF8"
+                android:padding="8dp"
+                android:stretchColumns="0">
+
+                <TableRow android:padding="6dp">
+
+                    <TextView
+                        android:text="Jugador X"
+                        android:textColor="#333333" />
+
+                    <TextView
+                        android:id="@+id/puntosX"
+                        android:text="0"
+                        android:textColor="#1F4E9C"
+                        android:textSize="18sp"
+                        android:textStyle="bold" />
+                </TableRow>
+
+                <TableRow android:padding="6dp">
+
+                    <TextView
+                        android:text="Jugador O"
+                        android:textColor="#333333" />
+
+                    <TextView
+                        android:id="@+id/puntosO"
+                        android:text="0"
+                        android:textColor="#D32F2F"
+                        android:textSize="18sp"
+                        android:textStyle="bold" />
+                </TableRow>
+
+                <TableRow android:padding="6dp">
+
+                    <TextView
+                        android:text="Empates"
+                        android:textColor="#333333" />
+
+                    <TextView
+                        android:id="@+id/puntosEmpates"
+                        android:text="0"
+                        android:textColor="#555555"
+                        android:textSize="18sp"
+                        android:textStyle="bold" />
+                </TableRow>
+            </TableLayout>
+
+            <Button
+                android:id="@+id/botonNueva"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:backgroundTint="#1F4E9C"
+                android:text="Nueva partida"
+                android:textColor="#FFFFFF" />
+
+            <Button
+                android:id="@+id/botonReiniciar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#FFFFFF"
+                android:text="Reiniciar puntuación"
+                android:textColor="#1F4E9C" />
+        </LinearLayout>
+
+        <TableLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginStart="8dp"
+            android:layout_weight="65"
+            android:background="#FFFFFF"
+            android:padding="4dp"
+            android:stretchColumns="*">
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1">
+
+                <TextView
+                    android:id="@+id/c0"
+                    android:layout_margin="4dp"
+                    android:background="#EEF0F8"
+                    android:gravity="center"
+                    android:textSize="40sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/c1"
+                    android:layout_margin="4dp"
+                    android:background="#EEF0F8"
+                    android:gravity="center"
+                    android:textSize="40sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/c2"
+                    android:layout_margin="4dp"
+                    android:background="#EEF0F8"
+                    android:gravity="center"
+                    android:textSize="40sp"
+                    android:textStyle="bold" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1">
+
+                <TextView
+                    android:id="@+id/c3"
+                    android:layout_margin="4dp"
+                    android:background="#EEF0F8"
+                    android:gravity="center"
+                    android:textSize="40sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/c4"
+                    android:layout_margin="4dp"
+                    android:background="#EEF0F8"
+                    android:gravity="center"
+                    android:textSize="40sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/c5"
+                    android:layout_margin="4dp"
+                    android:background="#EEF0F8"
+                    android:gravity="center"
+                    android:textSize="40sp"
+                    android:textStyle="bold" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1">
+
+                <TextView
+                    android:id="@+id/c6"
+                    android:layout_margin="4dp"
+                    android:background="#EEF0F8"
+                    android:gravity="center"
+                    android:textSize="40sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/c7"
+                    android:layout_margin="4dp"
+                    android:background="#EEF0F8"
+                    android:gravity="center"
+                    android:textSize="40sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/c8"
+                    android:layout_margin="4dp"
+                    android:background="#EEF0F8"
+                    android:gravity="center"
+                    android:textSize="40sp"
+                    android:textStyle="bold" />
+            </TableRow>
+        </TableLayout>
+    </LinearLayout>
+</LinearLayout>

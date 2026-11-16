@@ -1,0 +1,23 @@
+# Android Studio / Gradle
+*.iml
+.gradle/
+local.properties
+.idea/
+build/
+captures/
+.externalNativeBuild/
+.cxx/
+
+# APK y bundles generados
+*.apk
+*.aab
+*.ap_
+*.dex
+
+# Archivos de firma (nunca subir)
+*.jks
+*.keystore
+
+# Sistema operativo
+.DS_Store
+Thumbs.db
