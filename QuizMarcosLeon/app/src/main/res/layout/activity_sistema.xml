@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="24dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Software de Sistema"
+        android:textSize="26sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="16dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="El software de sistema controla y coordina el hardware del ordenador, proporcionando una base para que otros programas funcionen correctamente."
+        android:textSize="16sp"
+        android:layout_marginBottom="24dp" />
+
+    <Button
+        android:id="@+id/btnAndroid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Android OS" />
+
+    <Button
+        android:id="@+id/btnWindows"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Windows" />
+
+    <Button
+        android:id="@+id/btnLinux"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Linux" />
+
+    <Button
+        android:id="@+id/btnVolver"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="Volver al menú" />
+
+</LinearLayout>
