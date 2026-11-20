@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="24dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Elige qué quieres abrir"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="24dp" />
+
+    <CheckBox
+        android:id="@+id/cbWeb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Abrir una página web"
+        android:textSize="18sp" />
+
+    <CheckBox
+        android:id="@+id/cbLlamar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Llamar a un número de teléfono"
+        android:textSize="18sp" />
+
+    <CheckBox
+        android:id="@+id/cbCorreo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enviar correo electrónico"
+        android:textSize="18sp" />
+
+    <CheckBox
+        android:id="@+id/cbMaps"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Abrir Google Maps"
+        android:textSize="18sp" />
+
+    <CheckBox
+        android:id="@+id/cbGaleria"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Abrir galería"
+        android:textSize="18sp" />
+
+    <CheckBox
+        android:id="@+id/cbFoto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tomar foto"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/btnAbrir"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="Abrir" />
+
+</LinearLayout>
